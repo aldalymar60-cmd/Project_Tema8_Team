@@ -125,7 +125,9 @@ pip install -r requirements.txt
 python server/server.py
 В другом терминале запустить клиент:
 python client/client.py
-Запуск через Docker
+Для запуска оконного интерфейса клиента:
+    python client/client_gui.py
+###Запуск через Docker
 
 Для запуска проекта через Docker необходимо выполнить команду:
 
