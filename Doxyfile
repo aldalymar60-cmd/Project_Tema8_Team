@@ -1,0 +1,10 @@
+PROJECT_NAME           = "Project_Tema8_Team"
+PROJECT_BRIEF          = "Client-server application for topic 8"
+OUTPUT_DIRECTORY       = docs/doxygen
+INPUT                  = server client algorithms
+RECURSIVE              = YES
+FILE_PATTERNS          = *.py
+EXTRACT_ALL            = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+QUIET                  = NO
