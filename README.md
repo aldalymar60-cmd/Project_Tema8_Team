@@ -127,7 +127,7 @@ python server/server.py
 python client/client.py
 Для запуска оконного интерфейса клиента:
     python client/client_gui.py
-###Запуск через Docker
+### Запуск через Docker
 
 Для запуска проекта через Docker необходимо выполнить команду:
 
