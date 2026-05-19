@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  server:
+    build: .
+    container_name: tema8_server
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    command: python server/server.py
