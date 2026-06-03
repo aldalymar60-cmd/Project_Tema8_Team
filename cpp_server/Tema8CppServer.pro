@@ -3,12 +3,16 @@ QT += core network sql
 CONFIG += console c++17
 CONFIG -= app_bundle
 
-TARGET = Tema8CppServer
 TEMPLATE = app
+TARGET = Tema8CppServer
 
 SOURCES += \
     main.cpp \
-    mytcpserver.cpp
+    mytcpserver.cpp \
+    database.cpp \
+    algorithms.cpp
 
 HEADERS += \
-    mytcpserver.h
+    mytcpserver.h \
+    database.h \
+    algorithms.h
