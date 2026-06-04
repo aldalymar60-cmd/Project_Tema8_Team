@@ -16,3 +16,5 @@ def bisection_method(a, b, epsilon):
 
 def shortest_path(graph, start, end):
     return "Shortest path algorithm will be implemented later"
+
+
