@@ -37,3 +37,5 @@ class Database:
         cursor = self.connection.cursor()
         cursor.execute("SELECT * FROM operations")
         return cursor.fetchall()
+
+
